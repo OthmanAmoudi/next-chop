@@ -1,17 +1,28 @@
 {
-  "name": "next-chop",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "next": "^9.4.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  }
+	"name": "next-chop",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "next dev",
+		"start": "next",
+		"build": "next build"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@zeit/next-css": "^1.0.1",
+		"antd": "^4.3.0",
+		"next": "^9.4.4",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"styled-components": "^5.1.1"
+	},
+	"devDependencies": {
+		"@types/node": "^14.0.6",
+		"@types/react": "^16.9.35",
+		"babel-plugin-styled-components": "^1.10.7",
+		"typescript": "^3.9.3"
+	}
 }
