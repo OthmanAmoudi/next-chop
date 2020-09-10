@@ -11,7 +11,7 @@ const StyledHeader = styled.h1`
 
 const Index = () => {
   return (
-    <MainLayout>
+    <MainLayout title="NextChop">
       <StyledHeader>index page</StyledHeader>
     </MainLayout>
   );
